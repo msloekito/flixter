@@ -15,3 +15,55 @@
  */
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+.navbar {
+  border-radius:0;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: white;
+  box-shadow: 0px 1px 3px #2a2a2a;
+  background:url('restaurant.png');
+}
+
+.btn {
+  border-radius:0;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: white;
+}
+a.navbar-brand {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-weight: 900;
+}
+
+.hero {
+    background: url('spoonspice.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    height:750px;
+    box-shadow: 0px 3px 8px #2a2a2a;
+}
+
+h1, h2, h3, h4, h5, h6, .navbar {
+  margin:0;
+}
+
+.frosty {
+  background:rgba(0,0,0, 0.5);
+  color: white;
+}
+
+.frosty h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  text-shadow: rgba(0,0,0,0.95) 1px 1px;
+}
+
+.frosty h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  text-shadow: rgba(0,0,0,0.95) 1px 1px;
+}
