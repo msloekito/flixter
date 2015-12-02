@@ -36,7 +36,9 @@ a.navbar-brand {
     color: white;
     font-weight: 900;
 }
-
+body {
+  background: url('gplaypattern.png');
+}
 .hero {
     background: url('spoonspice.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -66,4 +68,25 @@ h1, h2, h3, h4, h5, h6, .navbar {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   text-shadow: rgba(0,0,0,0.95) 1px 1px;
+}
+
+body {
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+}
+
+.alert {
+  margin: 0;
+}
+.booyah-box {
+  -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  box-shadow: 1px 1px 2px 0 #d0d0d0;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  margin-top: 15px;
+}
+
+.booyah-box h2, .booyah-box h1 {
+  margin:10px;
 }
