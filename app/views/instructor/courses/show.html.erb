@@ -13,6 +13,7 @@
       <li>
         <%= section.title %>
         <%= link_to 'New Lesson', new_instructor_section_lesson_path(section), :class => 'pull-right btn btn-primary btn-xs' %>
+          <%= image_tag @course.image,  class: 'img-responsive' %>
         <ul>
           <% section.lessons.each do |lesson| %>
             <li>
