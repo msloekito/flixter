@@ -7,7 +7,7 @@
       <span class="label label-default">
     <%= number_to_currency @course.cost %>
     </span>
-
+    <%= image_tag(@course.image) %>
     <% if current_user && current_user == @course.user %>
     <br />
     <br />
